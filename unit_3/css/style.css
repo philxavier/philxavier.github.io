@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif|Covered+By+Your+Grace);
+
+body{
+  background-color: EEF3FF;
+  background-image: url(../images/customer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-family: 'Bree Serif', serif;
+  text-align:center;
+  color:black;
+  font-size: 80px;
+  
+}
+
+h2 {
+	font-family: 'Covered By Your Grace', cursive;
+	text-align:center;
+	font-size: 40px;
+}
+
+#slogan {
+	font-style:italic;
+}
+

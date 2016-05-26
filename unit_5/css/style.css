@@ -2,6 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif|Covered+By+Your+Grace);
 * {margin:0;padding:0;box-sizing:border-box;}
 
+
+header {
+    background-color: #ffed74;
+    border: 1px black solid;
+    padding: 20px;
+
+	}
+
 section#splash{
   background-color: #EEF3FF;
   background-image: url(../images/customer.jpg);
@@ -13,6 +21,9 @@ section#splash{
 }
 nav {
 	float:right;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 }
 h1{
   font-family: 'Bree Serif', serif;
@@ -33,3 +44,15 @@ h2 {
 	text-align: center;
 }
 
+#services {
+ background-color: #FFE2B8;
+ border: 1px black solid;
+ padding: 20px;
+}
+
+footer{
+ background-color: #FF957E;
+ border: 1px black solid;
+ padding: 20px;
+
+}

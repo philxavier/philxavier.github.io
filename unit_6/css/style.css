@@ -15,6 +15,7 @@ section #splash{
   background-image: url(../images/customer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  width:90%;
   height: 90vh;
   padding:10em;
   color: #fff;
@@ -61,7 +62,7 @@ footer{
 }
 
 #left {
-    background-color: violet;
+    background-color: #E582A2;
     border: 1px black solid;
     padding: 20px;
     float: left;
@@ -69,13 +70,11 @@ footer{
 }
 
 #right {
-    background-color: pink;
+    background-color: #E55B88;
     border: 1px black solid;
     padding: 20px;
     float: right;   
     width: 62%;
-}
-
 }
 
 .clearfix:after {

@@ -10,15 +10,16 @@ header {
 
 	}
 
-section#splash{
+section #splash{
   background-color: #EEF3FF;
   background-image: url(../images/customer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
-  padding: 10em;
+  padding:10em;
   color: #fff;
 }
+
 nav {
 	float:right;
 	background-color: #E8C66A;
@@ -44,11 +45,7 @@ h2 {
 	text-align: center;
 }
 
-#services {
- background-color: #FFE2B8;
- border: 1px black solid;
- padding: 20px;
-}
+
 
 footer{
  background-color: #FF957E;
@@ -64,13 +61,32 @@ footer{
 }
 
 #left {
-    background-color: #E582A2;
+    background-color: violet;
     border: 1px black solid;
     padding: 20px;
+    float: left;
+    width: 30%;
 }
 
 #right {
-    background-color: #E55B88;
+    background-color: pink;
     border: 1px black solid;
     padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+a {
+  display: inline-block;
 }

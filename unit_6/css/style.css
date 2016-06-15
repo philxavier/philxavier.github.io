@@ -1,32 +1,54 @@
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif|Covered+By+Your+Grace);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700);
 * {margin:0;padding:0;box-sizing:border-box;}
 
 
 header {
-    background-color: #ffed74;
+    background-image: url(../images/palacio.jpg);
+background: -moz-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(38,104,128,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+background:-webkit-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+background:radial-gradient(ellipse at center, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#266880', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+
     border: 1px black solid;
     padding: 20px;
 
-	}
+}
 
-section #splash{
+ 
+#splash {
   background-color: #EEF3FF;
-  background-image: url(../images/customer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width:90%;
-  height: 90vh;
-  padding:10em;
+  background-image: url(../images/brasao.jpg);
+  height: 110vh;
+  padding: 10em;
   color: #fff;
 }
 
-nav {
+
+
+.nav {
 	float:right;
-	background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
+  margin-right: 25%;
+  margin-top:1%;
+  }
+
+
+.nav a {
+  display:inline-block;
+  margin:0.1em;
+  color:#fff;
+  text-decoration:none;
+  padding: 1em 2em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
 }
+
+
 h1{
   font-family: 'Bree Serif', serif;
   text-align:center;
@@ -36,9 +58,12 @@ h1{
 }
 
 h2 {
-	font-family: 'Covered By Your Grace', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	text-align:center;
 	font-size: 40px;
+  margin-top:2%;
+  margin-bottom: 5%;
+  color:white;
 }
 
 #slogan {
@@ -49,33 +74,102 @@ h2 {
 
 
 footer{
- background-color: #FF957E;
+ background-color:black;
  border: 1px black solid;
- padding: 20px;
+ padding: 4%;
+ clear:both;
+ color:white;
+ text-align: center;
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+#logo {
+  width:10%;
+  display:inline-block;
+  margin-left: 10%;
 
 }
 
-#two_column {
-    background-color: #FFB7CF;
+
+
+#texto {
+
+background-image: url(../images/palacio.jpg);
+background: -moz-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(38,104,128,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+background:-webkit-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+background:radial-gradient(ellipse at center, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#266880', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+padding:15%;
+
+}
+
+#texto img{
+  margin-left: 10px;
+  margin-right: auto;
+  display:inline-block;
+  height: 35%;
+  width:50%;
+
+}
+
+#texto p {
+  float:right;
+  display:inline-block;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  margin-top: -22px;
+  background:;
+}
+
+#texto #logo_3 {
+  float:right;
+  height: 30%;
+  width:30%;
+  margin-right: 5%;
+  margin-bottom: -18%;
+  margin-top: -17%;
+}
+
+
+
+#four_column {
+    background: #2D3040;
     border: 1px black solid;
     padding: 20px;
+    text-align: center;
 }
 
-#left {
-    background-color: #E582A2;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
+#four_column div { 
+   display:inline-block;
+   float:left;
+   width:25%;
+   margin-bottom: 5%
+ }
+
+#four_column img {
+  width:100%;
+  padding:5%;
+  }
+
+#four_column p {
+  color:white;
+  font-size:35px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 3%;
+
 }
 
-#right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 62%;
+ 
+#four_column .fonti {
+  font-size: 20px;
+  margin-top: 2%;
+  padding:4%;
 }
+
 
 .clearfix:after {
     visibility: hidden;
@@ -86,6 +180,5 @@ footer{
     height: 0;
 }
 
-a {
-  display: inline-block;
-}
+
+

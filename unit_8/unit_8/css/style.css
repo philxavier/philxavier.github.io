@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700);
+* {margin:0;padding:0;box-sizing:border-box;}
+
+
+body {
+  font-size:16px;
+}
+
+header {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(38,104,128,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+    background:-webkit-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+    background:radial-gradient(ellipse at center, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#266880', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+    border: 1px black solid;
+    padding: 20px;
+    position:relative;
+
+
+}
+
+ 
+#splash {
+  background-color: #EEF3FF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/brasao.jpg);
+  height: 110vh;
+  padding: 10em;
+  color: #fff;
+}
+
+
+
+nav {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background: red;
+ }
+
+
+nav a {
+  display:inline-block;
+  margin:0.1em;
+  color:#fff;
+  text-decoration:none;
+  padding: 1em 2em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+
+h1{
+  font-family: 'Bree Serif', serif;
+  text-align:center;
+  color:black;
+  font-size: 2.5em;
+  float: left;
+  font-weight: bold;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align:center;
+	font-size: 2.5em;
+  margin-top:2%;
+  margin-bottom: 5%;
+  color:white;
+}
+
+#slogan {
+	font-style:italic;
+	text-align: center;
+}
+
+
+
+footer{
+ background-color:black;
+ border: 1px black solid;
+ padding: 4%;
+ clear:both;
+ color:white;
+ text-align: center;
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#logo {
+  display:inline-block;
+  width:10%;
+  float:left;
+  margin-left:5%;
+  
+
+}
+
+
+#texto {
+
+background: -moz-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(38,104,128,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+background:-webkit-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+background:radial-gradient(ellipse at center, rgba(38,104,128,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#266880', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+padding:11%;
+position:relative;
+
+}
+
+#texto img{
+  width:50%;
+  background: ;
+ }
+
+
+
+
+#texto p {
+  font-size: 1.87em;
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  float:right;
+  width:50%;
+  padding-left: 10%;
+
+}
+  
+
+
+
+#four_column {
+    background: #2D3040;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
+
+#four_column div { 
+   float:left;
+   width:25%;
+   margin-bottom: 5%
+ }
+
+#four_column img {
+  width:100%;
+  padding:5%;
+  }
+
+#four_column p {
+  color:white;
+  font-size:2.18em;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 3%;
+
+}
+
+ 
+#four_column .fonti {
+  font-size: 1.25em;
+  margin-top: 2%;
+  padding:4%;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 1271) {
+
+  body {
+    font-size: 14px;
+  }
+ 
+  nav a {
+
+    display:block;
+    text-align:center;
+    margin:0;
+  }
+}
+
+
+
+@media only screen and (max-width: 716) {
+
+   body {
+    font-size: 14px;
+  }
+
+
+#four_column div { 
+   float:none;
+   width:auto;
+   margin-bottom: 5%
+  }
+  
+}
